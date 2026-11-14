@@ -123,3 +123,13 @@ textarea#q,input#q{font-size:17px}
 #cbanner p{margin:0;flex:1 1 220px}#cbanner a{color:#1d4ed8;font-weight:700}#cbanner .cb{display:flex;gap:8px}#cbanner button{padding:9px 16px;border-radius:10px;font-weight:800;border:1px solid var(--line);background:var(--surface);color:var(--text);cursor:pointer}#cbanner #cyes{background:#2563eb;color:#fff;border-color:#2563eb}
 
 .brand{display:flex;align-items:center;gap:8px}.brand .logo{width:32px;height:32px;object-fit:contain;flex:none;display:block}:root[data-theme=dark] .brand .logo{background:#eef3ff;border-radius:9px;padding:3px;width:34px;height:34px}
+/* Phademy article styles: educational content under each calculator */
+.content-section h2:not(:first-child){margin-top:34px}
+.content-section h3{font-size:18px;letter-spacing:-.3px;margin:22px 0 8px}
+.content-section ul,.content-section ol{margin:0 0 16px;padding-left:22px}
+.content-section li{margin:0 0 6px}
+.content-section p a,.content-section li a{color:var(--brand);font-weight:600}
+.content-section .formula{background:var(--surface2);border-radius:10px;padding:10px 14px;margin:0 0 16px;font-weight:700;color:var(--text);overflow-x:auto}
+.content-section .example{border-left:3px solid var(--brand);padding:2px 0 2px 14px;margin:0 0 18px}
+@media(max-width:560px){.content-section h3{font-size:16px;margin-top:18px}.content-section .formula{font-size:14px;padding:9px 12px}.content-section ul,.content-section ol{padding-left:20px}}
+[data-theme=dark] .content-section p a,[data-theme=dark] .content-section li a{color:#8db4ff}
