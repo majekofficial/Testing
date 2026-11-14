@@ -357,3 +357,10 @@ summary::marker{color:var(--accent)}
   :root[data-theme] .kp.calc.c5 button{height:46px;font-size:14px;border-radius:13px}
   .result strong{font-size:26px}
 }
+
+/* Fix: keep the Tools button on one line, centred */
+.hctl{flex:none;flex-wrap:nowrap}
+.hctl>*{flex:none}
+.hctl .mobile-menu,.mobile-menu{display:inline-flex!important;align-items:center;justify-content:center;gap:7px;white-space:nowrap;line-height:1;height:40px;padding:0 14px!important;font-size:14px;font-weight:900;border-radius:12px}
+.hctl select{max-width:84px}
+@media(max-width:380px){.hctl{gap:6px}.hctl select{max-width:72px;padding:0 6px}.mobile-menu{padding:0 11px!important}.wordmark{font-size:19px}}
